@@ -1,0 +1,11 @@
+name: Custom Action Workflow
+
+on: [push]
+
+jobs:
+  custom-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f3002441@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+
